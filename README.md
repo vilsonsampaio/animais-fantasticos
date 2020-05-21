@@ -14,6 +14,7 @@ Site em desenvolvimento para obtenção de certificado do curso de **JavaScript 
 ## TO DO
 - [ ] Implementar menu dropdown
 - [ ] Adicionar slides
+- [ ] Adicionar a aba de login
 - [ ] Alimentar o site com uma API externa
 
 
