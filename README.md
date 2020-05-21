@@ -1,5 +1,5 @@
 <h1 align="center">
-    Animais Fantáticos
+    <img alt="Bikcraft" src="./img/logo.png"/>
 </h1>
 
 Site em desenvolvimento para obtenção de certificado do curso de **JavaScript ES6+ Completo** da [Origamid](https://www.origamid.com/curso/javascript-completo-es6/), cuidando do layout e codificação.
