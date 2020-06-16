@@ -229,16 +229,32 @@ body {
 
 
 /* Adicionando o estilo para o tab navigation (menu imagem) */
-.js .js-tabcontent section {
+.js [data-tab="content"] section {
   display: none;
 }
 
-.js .js-tabcontent section.ativo {
+.js [data-tab="content"] section.ativo.show-down {
   display: block!important;
-  animation: show .5s forwards;
+  animation: show-down .5s forwards;
 }
 
-@keyframes show {
+@keyframes show-down {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -30px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.js [data-tab="content"] section.ativo.show-right {
+  display: block!important;
+  animation: show-right .5s forwards;
+}
+
+@keyframes show-right {
   from {
     opacity: 0;
     transform: translate3d(-30px, 0, 0);
@@ -250,20 +266,22 @@ body {
 }
 
 /* Adicionando o estilo para o accordion */
-.js .js-accordion dd {
+.js [data-anime="accordion"] dd {
   display: none;
 }
 
-.js .js-accordion dt::after{
+.js [data-anime="accordion"] dt::after{
   content: "⯆";
   margin-left: 10px;
+  cursor: pointer;
 }
 
-.js .js-accordion dt.ativo::after{
+.js [data-anime="accordion"] dt.ativo::after{
   content: "⯅";
+  cursor: pointer;
 }
 
-.js .js-accordion dd.ativo {
+.js [data-anime="accordion"] dd.ativo {
   display: block;
   animation: slideDown .5s forwards;
 }
@@ -280,14 +298,13 @@ body {
 }
 
 /* Adicionando o estilo para o accordion */
-.js .js-scroll {
+.js [data-anime="scroll"] {
   opacity: 0;
   transform: translate3d(-30px, 0, 0);
   transition: .3s;
-
 }
 
-.js .js-scroll.ativo {
+.js [data-anime="scroll"].ativo {
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
