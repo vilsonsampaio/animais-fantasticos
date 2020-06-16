@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Animais Fantásticos" src="./img/animais-fantasticos.svg"/>
+    <img alt="Animais Fantásticos" src="./.github/animais-fantasticos.svg"/>
 </h1>
 
 Site em desenvolvimento para obtenção de certificado do curso de **JavaScript ES6+ Completo** da [Origamid](https://www.origamid.com/curso/javascript-completo-es6/), cuidando do layout e codificação.
@@ -9,13 +9,13 @@ Site em desenvolvimento para obtenção de certificado do curso de **JavaScript 
 + HTML 5
 + CSS 3
 + JavaScript
-+ CSS Grid Layout
 
 ## TO DO
-- [ ] Implementar menu dropdown
-- [ ] Adicionar slides
-- [ ] Adicionar a aba de login
+- [x] Adicionar o modal para login
+- [x] Adicionar tooltip
+- [x] Implementar menu dropdown
 - [ ] Alimentar o site com uma API externa
+- [ ] Adicionar slides
 
 
 ## Projeto final:
