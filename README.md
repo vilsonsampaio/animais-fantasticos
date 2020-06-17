@@ -14,6 +14,9 @@ Site em desenvolvimento para obtenção de certificado do curso de **JavaScript 
 - [x] Adicionar o modal para login
 - [x] Adicionar tooltip
 - [x] Implementar menu dropdown
+- [x] Adicionar menu-mobile
+- [x] Adicionar efeito de animação dos números
+- [x] Adicionar horário de funcionamento e ícone para informar se está aberto ou fechado
 - [ ] Alimentar o site com uma API externa
 - [ ] Adicionar slides
 

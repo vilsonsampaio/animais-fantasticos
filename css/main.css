@@ -185,6 +185,27 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Aviso do horário de funcionamento */
+[data-semana]::after {
+  content: '';
+
+  display: inline-block;
+
+  margin-left: 4px;
+
+  width: 6px;
+  height: 6px;
+
+  background-color: #e54;
+
+  border: 2px solid #000;
+  border-radius: 50%;
+}
+
+[data-semana].aberto::after {
+  background-color: #3f4;
+}
+
 
 /* footer */
 .copy {
