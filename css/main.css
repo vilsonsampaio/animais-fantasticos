@@ -326,7 +326,7 @@ body {
   }
 }
 
-/* Adicionando o estilo para o accordion */
+/* Adicionando o estilo para o scroll */
 .js [data-anime="scroll"] {
   opacity: 0;
   transform: translate3d(-30px, 0, 0);
@@ -336,4 +336,12 @@ body {
 .js [data-anime="scroll"].ativo {
   opacity: 1;
   transform: translate3d(0, 0, 0);
+}
+
+/* Bitcoin */
+.btc-preco {
+  background-color: #3f4;
+  padding: .2rem .5rem;
+  font-weight: bold;
+  border-radius: 2px;
 }
