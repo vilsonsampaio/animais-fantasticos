@@ -22,4 +22,4 @@ Site em desenvolvimento para obtenção de certificado do curso de **JavaScript 
 
 
 ## Projeto final:
-[Clique aqui](https://origamid.github.io/animais-fantasticos/) para acessar o projeto no ar!
+[Clique aqui](https://vilsonsampaio.github.io/animais-fantasticos/) para acessar o projeto no ar!
