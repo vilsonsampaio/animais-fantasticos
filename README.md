@@ -1,18 +1,18 @@
 <h1 align="center">
     <img alt="Animais Fantásticos" title="Animais Fantásticos" src="./.github/animais-fantasticos.svg" width="220px" />
 </h1>
+
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/vilsonsampaio/animais-fantasticos.svg?color=orange">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/vilsonsampaio/animais-fantasticos.svg?color=e54">
    
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/top/vilsonsampaio/animais-fantasticos.svg?color=orange">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/top/vilsonsampaio/animais-fantasticos.svg?color=e54">
 
   <a href="https://github.com/vilsonsampaio/animais-fantasticos/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vilsonsampaio/animais-fantasticos.svg?color=orange">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vilsonsampaio/animais-fantasticos.svg?color=e54">
   </a>
 
-
   <a href="https://github.com/vilsonsampaio/">
-    <img alt="Author" src="https://img.shields.io/badge/author-Vilson%20Sampaio-orange">
+    <img alt="Author" src="https://img.shields.io/badge/author-Vilson%20Sampaio-e54">
   </a>
 </p>
 
