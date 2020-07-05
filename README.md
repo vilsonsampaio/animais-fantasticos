@@ -55,7 +55,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 
 ## 🌐 Projeto final
-[Clique aqui](https://vilsonsampaio.github.io/bikcraft/) para acessar o projeto no ar!
+[Clique aqui](https://vilsonsampaio.github.io/animais-fantasticos/) para acessar o projeto no ar!
 
 ### 🖥 Desktop
 ![](./.github/desktop.png)
