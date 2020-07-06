@@ -51,6 +51,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Adicionar efeito de animação dos números
 - [x] Adicionar horário de funcionamento e ícone para informar se está aberto ou fechado
 - [x] Alimentar o site com uma API externa
+- [x] Refatorar funções
 - [ ] Adicionar slides
 
 
