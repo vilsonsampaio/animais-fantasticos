@@ -4,7 +4,7 @@ export default class initModal {
     this.botaoFechar = document.querySelector(botaoFechar);
     this.containerModal = document.querySelector(containerModal);
 
-    // Bind this para o callback para fazer referência ao objeto da classe, e não ao elemento
+    // Bind: this para o callback para fazer referência ao objeto da classe, e não ao elemento
     this.eventToggleModal = this.eventToggleModal.bind(this);
     this.clickForaDoModal = this.clickForaDoModal.bind(this);
   }
