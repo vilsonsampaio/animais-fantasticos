@@ -1,32 +1,31 @@
 export default function initAnimaNumeros() {
   function animaNumeros() {
-    const numeros = document.querySelectorAll('[data-numero]');
-    numeros.forEach(numero => {
+    const numeros = document.querySelectorAll("[data-numero]");
+    numeros.forEach((numero) => {
       const total = +numero.innerText;
-      const incremento = Math.floor(total/100);
+      const incremento = Math.floor(total / 100);
       let start = 0;
       const timer = setInterval(() => {
-        start+=incremento;
+        start += incremento;
         numero.innerText = start;
-        if (start>total) {
+        if (start > total) {
           numero.innerText = total;
           clearInterval(timer);
         }
       }, 25);
     });
   }
-  
-  
+
   // Ativando a função apenas quando a seção for visualizada
   function handleMutation(mutation) {
-    if(mutation[0].target.classList.contains('ativo')) {
+    if (mutation[0].target.classList.contains("ativo")) {
       observer.disconnect();
       animaNumeros();
     }
   }
-  
-  const observerTarget = document.querySelector('.numeros');
+
+  const observerTarget = document.querySelector(".numeros");
   const observer = new MutationObserver(handleMutation);
-  
-  observer.observe(observerTarget, {attributes: true});
+
+  observer.observe(observerTarget, { attributes: true });
 }
