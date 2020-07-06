@@ -13,23 +13,14 @@ import initAnimacaoScroll from './modules/animacao-scroll.js';
 const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
 scrollSuave.init();
 
-initTabNav();
 
 initAccordion();
-
-
-initAnimacaoScroll();
-
+initTabNav();
 initModal();
-
 initTooltip();
-
 initDropdownMenu();
-
 initMenuMobile();
-
 initFuncionamento();
-
 initFetchAnimais();
-
 initFetchBitcoin();
+initAnimacaoScroll();
