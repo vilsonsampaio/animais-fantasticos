@@ -1,0 +1,85 @@
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
+.galeria {
+  grid-column: 1 / -1;
+}
+
+.slide-wrapper {
+  grid-column: 1 / -1;
+  overflow: hidden;
+}
+
+.slide {
+  display: flex;
+}
+
+.slide:hover {
+  cursor: pointer;
+  will-change: transform;
+}
+
+.slide li {
+  flex-shrink: 0;
+  width: 80vw;
+  max-width: 800px;
+  margin: 0 20px;
+  
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .4);;
+  overflow: hidden;
+
+  /* Efeitos para o slide */
+  opacity: .8;
+  transform: scale(0.8);
+  transition: .4s;
+}
+
+.slide li.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+
+/* Estilo para os constroles inseridos pelo usuário (customizado) */
+
+.custom-controls {
+  grid-column: 1 / -1;
+
+  display: flex;
+  justify-content: center;
+  
+  flex-wrap: wrap;
+}
+
+.custom-controls li {
+  width: 40px;
+  height: 40px;
+
+  margin: 2px;
+
+  border-radius: 50%;
+  overflow: hidden;
+
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .5);
+  
+  cursor: pointer;
+  
+  opacity: .8;
+  transform: scale(.8);
+  transition: .3s;
+}
+
+.custom-controls li.active {
+  opacity: 1;
+  transform: scale(1);
+}
