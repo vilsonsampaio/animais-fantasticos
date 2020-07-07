@@ -19,6 +19,7 @@
 <p align="center">
   <a href="#-sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto-final">Projeto final</a>
 </p>
 
@@ -41,7 +42,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS Grid Layout](https://www.origamid.com/projetos/css-grid-layout-guia-completo/)
 
-## 📝 TO DO
+## 📝 Funcionalidades
 
 - [x] Adicionar o modal para login
 - [x] Adicionar tooltip
@@ -52,7 +53,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Alimentar o site com uma API externa
 - [x] Refatorar funções
 - [x] Adicionar slides
-- [ ] Adicionar gifs no preview do README.md
+- [ ] Adicionar preview em .gif para o README
 
 
 ## 🌐 Projeto final
