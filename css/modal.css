@@ -4,9 +4,6 @@
   left: 0;
   
   display: none;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
   
   width: 100%;
   height: 100vh;
@@ -25,7 +22,8 @@
 .modal {
   position: relative;
   
-  min-width: 300px;
+  width: 80vw;
+  max-width: 600px;
 
   padding: 40px;
 
@@ -34,6 +32,8 @@
   border: solid 10px #fb5;
 
   box-shadow: 0 0 0 10px white;
+
+  box-sizing: border-box;
 }
 
 .ativo .modal {
@@ -60,12 +60,8 @@
   height: 50px;
 
 
-  background-color: #e54;
-  color: white;
-
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 1.2rem;
-
+  background: #e54 url('../img/fechar.svg') no-repeat center center;
+  
   border: solid 4px white;
   border-radius: 50%;
 
@@ -87,6 +83,9 @@
   width: 100%;
 
   padding: .7rem .5rem;
+
+  border: solid 2px #222222;
+  border-radius: 0;
 
   box-sizing: border-box;
 }
