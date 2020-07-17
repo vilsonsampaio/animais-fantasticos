@@ -31,7 +31,7 @@
 
 ## 💻 Sobre o projeto
 
-Site desenvolvido para obtenção do certificado de conclusão do curso de **JavaScript ES6+ Completo** da [Origamid](https://www.origamid.com/curso/javascript-completo-es6/).
+Site desenvolvido para obtenção do certificado de conclusão do curso de **JavaScript ES6+ Completo**, da [Origamid](https://www.origamid.com/curso/javascript-completo-es6/).
 
 ## 🚀 Tecnologias
 
