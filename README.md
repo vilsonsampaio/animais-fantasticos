@@ -67,5 +67,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ---
 <p align="center">
-Feito com ❤️ <a href="https://vilsonsampaio.github.io/animais-fantasticos">Vilson Sampaio</a>
+Feito com ❤️ <a href="https://www.linkedin.com/in/vilsonsampaio/">Vilson Sampaio</a>
 </p>
